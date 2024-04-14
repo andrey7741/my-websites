@@ -1,0 +1,128 @@
+.search-bar input {
+  width: 270px;
+  height: 30px;
+  padding: 1px;
+  border: solid aqua 2px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+.search-bar button {
+  padding: 8px;
+  width: 62px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid firebrick;
+}
+.search-bar input:hover {
+  border: solid firebrick 2px;
+}
+.search-bar button:hover {
+  border: solid aqua 2px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+a {
+  position: relative;
+  left: -4%;
+  bottom: 7px;
+  background-color: black;
+  color: #fff;
+  border: solid aqua 2px;
+  padding: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+a:hover {
+  border: solid 2px rgb(35, 255, 127);
+}
+.col {
+  position: relative;
+  margin: auto;
+  width: 97%;
+  border: 2px solid gray;
+  padding: 19px;
+  top: 500px;
+  display: block;
+  background-color: #363636;
+  color: #fff;
+  width: auto;
+}
+.col a {
+  position: relative;
+  left: 3px;
+  padding: 7px;
+}
+.social-1 {
+  border: solid rgb(0, 110, 255) 2px;
+}
+.social-2 {
+  border: solid red 2px;
+}
+.social-4 {
+  border: solid crimson 2px;
+}
+.social-1:hover {
+  border: none;
+  background-color: rgb(0, 110, 255);
+}
+.social-2:hover {
+  border: none;
+  background-color: red;
+}
+.social-3:hover {
+  border: none;
+  background-color: aqua;
+}
+.social-4:hover {
+  border: none;
+  background-color: crimson;
+}
+.input input {
+  position: relative;
+  width: 11%;
+  border: 2px solid gray;
+  padding: 7px;
+  top: 300px;
+  left: 15%;
+  border-radius: 30px;
+  border: solid lawngreen 2px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.input button {
+  position: relative;
+  left: 28%;
+  bottom: -267px;
+  border-radius: 30px;
+  padding: 7px;
+  width: 3%;
+  border: solid green 2px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.input h3 {
+  position: relative;
+  left: 18%;
+  bottom: -280px;
+  color: white;
+}
+.input input:hover {
+  border: solid darkgreen 2px;
+}
+.input button:hover {
+  border: solid lawngreen 2px;
+}
+.footer p {
+  position: relative;
+  left: 42%;
+  bottom: -325px;
+  color: white;
+}

@@ -1,0 +1,147 @@
+body {
+  background-color: #363636;
+}
+.search-bar input {
+  width: 270px;
+  height: 30px;
+  padding: 1px;
+  border: solid aqua 2px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  transition: all ease-in-out 0.7s;
+}
+h3 {
+  color: white;
+}
+h1 {
+  color: white;
+}
+.search-bar button {
+  padding: 8px;
+  width: 62px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid firebrick;
+  transition: all ease-in-out 0.7s;
+}
+.search-bar input:hover {
+  border: solid firebrick 2px;
+  box-shadow: 0 0 10px 0 firebrick inset, 0 0 20px 2px firebrick;
+}
+.search-bar button:hover {
+  border: solid aqua 2px;
+  box-shadow: 0 0 10px 0 aqua inset, 0 0 20px 2px aqua;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+a {
+  position: relative;
+  left: -4%;
+  bottom: 7px;
+  background-color: black;
+  color: #fff;
+  border: solid aqua 2px;
+  padding: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  border: solid 2px rgb(35, 255, 127);
+}
+.col {
+  position: relative;
+  margin: auto;
+  width: 97%;
+  border: 2px solid gray;
+  padding: 19px;
+  top: 500px;
+  display: block;
+  background-color: #363636;
+  color: #fff;
+  width: auto;
+}
+.col a {
+  position: relative;
+  left: 3px;
+  padding: 7px;
+}
+.social-1 {
+  border: solid rgb(0, 110, 255) 2px;
+}
+.social-2 {
+  border: solid red 2px;
+}
+.social-4 {
+  border: solid crimson 2px;
+}
+.social-1:hover {
+  border: none;
+  background-color: rgb(0, 110, 255);
+}
+.social-2:hover {
+  border: none;
+  background-color: red;
+}
+.social-3:hover {
+  border: none;
+  background-color: aqua;
+}
+.social-4:hover {
+  border: none;
+  background-color: crimson;
+}
+.input input {
+  position: relative;
+  width: 11%;
+  border: 2px solid gray;
+  padding: 7px;
+  top: 300px;
+  left: 15%;
+  border-radius: 30px;
+  border: solid lawngreen 2px;
+  background-color: black;
+  color: white;
+  display: flex;
+  transition: all ease-in-out 0.7s;
+}
+.input button {
+  position: relative;
+  left: 28%;
+  bottom: -267px;
+  border-radius: 30px;
+  padding: 7px;
+  width: 3%;
+  border: solid green 2px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.7s;
+}
+.input h3 {
+  position: relative;
+  left: 18%;
+  bottom: -280px;
+  color: white;
+}
+.input input:hover {
+  border: solid darkgreen 2px;
+  box-shadow: 0 0 10px 0 lawngreen inset, 0 0 20px lawngreen;
+}
+.input button:hover {
+  border: solid lawngreen 2px;
+  box-shadow: 0 0 10px 0 green inset, 0 0 20px green;
+}
+.footer p {
+  position: relative;
+  left: 42%;
+  bottom: -325px;
+  color: white;
+}

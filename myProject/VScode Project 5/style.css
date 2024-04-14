@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./images/wallpaper_website.jpg) no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  display: block;
+  max-width: 100%;
+  padding-bottom: 1033px;
+  backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 1515px) {
+  .logo-footer img {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 200px;
+    float: left;
+  }
+  .logo img {
+    left: 270px;
+  }
+  .navbar-btn {
+    display: grid;
+  }
+  .links-info a {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+  }
+
+  .buttons-links a {
+    float: left;
+  }
+  .container h3 {
+    top: 70px;
+  }
+  .buttons-links ul,
+  li,
+  a {
+    position: relative;
+    float: left;
+    transform: translate(-28px, 10px);
+  }
+  .email-input button {
+    transform: translate(-110px, 200px);
+    float: left;
+    display: flex;
+  }
+  .email-input input {
+    position: relative;
+    float: left;
+    display: flex;
+    transform: translate(-110px, 200px);
+  }
+  .email-input h3 {
+    transform: translate(20px, 80px);
+  }
+  .links-info {
+    position: relative;
+    left: 11%;
+  }
+  .social-media ion-icon {
+    transform: translate(20px, 100px);
+  }
+  .email-input h3 {
+    transform: translate(-190px, 215px);
+  }
+}
+
+.logo img {
+  position: relative;
+  width: 56px;
+  border-radius: 50px;
+  left: 4%;
+  top: 17px;
+  cursor: pointer;
+  border: 1px solid crimson;
+  transition: all 0.7s ease-in-out;
+  max-width: 100%;
+  display: block;
+}
+.logo img:hover {
+  box-shadow: 0 0 10px 0 crimson inset, 0 0 20px 2px crimson;
+}
+.navbar-btn a {
+  text-decoration: none;
+  display: inline-block;
+  top: -25px;
+}
+
+.feedback-btn {
+  position: relative;
+  left: 66%;
+}
+.contact-btn {
+  position: relative;
+  left: 64%;
+}
+.about-btn {
+  position: relative;
+  left: 62%;
+}
+.home-btn {
+  position: relative;
+  left: 60%;
+  /* color: crimson; */
+}
+
+.navbar-btn a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: crimson;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+.navbar-btn a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.container h2,
+h3 {
+  position: relative;
+  color: white;
+  display: grid;
+  left: 40%;
+  top: 90px;
+}
+.buttons-links ul,
+li,
+a {
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  color: white;
+  padding: 5px;
+  transition: all 0.7s ease-in-out;
+  position: relative;
+  left: 35%;
+  top: 45px;
+}
+.buttons-links a {
+  border-radius: 8px;
+}
+.tiktok-btn {
+  border: 2px solid rgb(106, 255, 255);
+  background-color: rgb(106, 255, 255);
+}
+.instagram-btn {
+  border: 2px solid rgb(220, 20, 87);
+  background-color: rgb(220, 20, 87);
+}
+.youtube-btn {
+  border: 2px solid red;
+  background-color: red;
+}
+.tiktok-btn:hover {
+  box-shadow: 0 0 10px 0 aqua inset, 0 0 29px 2px aqua;
+  border: 2px solid aqua;
+}
+.instagram-btn:hover {
+  box-shadow: 0 0 10px 0 rgb(220, 20, 87) inset, 0 0 29px 2px rgb(220, 20, 87);
+  border: 2px solid rgb(220, 20, 87);
+}
+.youtube-btn:hover {
+  box-shadow: 0 0 10px 0 red inset, 0 0 29px 2px red;
+  border: 2px solid red;
+}
+.footer form,
+input {
+  padding: 7px;
+  border-radius: 15px;
+  padding-right: 70px;
+}
+.footer input {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  transition: all 0.7s ease-in-out;
+}
+.footer input:hover {
+  box-shadow: 0 0 10px 0 crimson inset, 0 0 20px 2px crimson;
+  border: 1px solid crimson;
+}
+.links-info a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: crimson;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+.links-info a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgb(33, 42, 51);
+  padding-bottom: 350px;
+  padding-top: 30px;
+  top: 1200px;
+  /* background: url(./images/footer.jpg) no-repeat; */
+}
+.links-info a {
+  position: relative;
+  left: 2cqmin;
+  top: 30px;
+  color: white;
+}
+.email-input input {
+  position: relative;
+  left: 42%;
+  top: -90px;
+}
+.links-info h3 {
+  left: 2%;
+  top: 10px;
+}
+.email-input h3 {
+  top: -130px;
+  left: 43%;
+}
+.email-input button {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  transition: all 0.7s ease-in-out;
+  padding: 8px;
+  border-radius: 15px;
+  left: 42%;
+  top: -89px;
+  position: relative;
+}
+.email-input button:hover {
+  box-shadow: 0 0 10px 0 crimson inset, 0 0 20px 2px crimson;
+  border: 1px solid crimson;
+}
+.social-media ion-icon {
+  font-size: 40px;
+  position: relative;
+  left: 1%;
+  top: 20px;
+  justify-content: space-between;
+  display: inline-block;
+}
+.logo-facebook {
+  color: rgb(0, 119, 255);
+}
+.logo-snap {
+  color: rgb(255, 255, 49);
+}
+.logo-footer img {
+  position: relative;
+  float: right;
+  top: -230px;
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+  border: 2px solid crimson;
+  transform: translate(-350px);
+}
+
+
+
+
